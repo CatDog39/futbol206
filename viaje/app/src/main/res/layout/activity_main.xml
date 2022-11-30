@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="49dp"
+        android:layout_height="732dp"
+        android:background="#009688"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-1dp"
+        tools:ignore="MissingConstraints">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="33dp"
+        android:layout_height="18dp"
+        android:rotationX="360"
+        android:text="Viaje"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="71dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/CodigoViaje"
+        android:layout_width="192dp"
+        android:layout_height="42dp"
+        android:hint="Codigo Viaje"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="117dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/numP"
+        android:layout_width="213dp"
+        android:layout_height="43dp"
+        android:hint="Numero de personas"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="333dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/ValorP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Valor por persona"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="393dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/ValorT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Valor Total"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="451dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/CiudadDestino"
+        android:layout_width="103dp"
+        android:layout_height="22dp"
+        android:text="Ciudad Destino"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <RadioGroup
+        android:layout_width="110dp"
+        android:layout_height="104dp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="208dp"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/Cartagena"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Cartagena" />
+
+        <RadioButton
+            android:id="@+id/SanAndres"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="San Andres" />
+
+        <RadioButton
+            android:id="@+id/LaGuajira"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="La Guajira" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#101010"
+        android:text="Guardar"
+        android:onClick="Guardar"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="520dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Anular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0C0C0C"
+        android:text="Anular"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="520dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Consultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0B0A0A"
+        android:text="Consultar"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="580dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

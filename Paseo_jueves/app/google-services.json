@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "902133864026",
+    "project_id": "equipojueves-82807",
+    "storage_bucket": "equipojueves-82807.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902133864026:android:0b957e65414b2242432a63",
+        "android_client_info": {
+          "package_name": "com.example.paseo_jueves"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902133864026-3lekqpkhk5uq43niqr3ngqkt9i1u87mo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLetJ1c5GXYYjGQQTKCCjH-8yylA08gUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902133864026-3lekqpkhk5uq43niqr3ngqkt9i1u87mo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
